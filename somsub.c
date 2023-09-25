@@ -17,7 +17,8 @@ int sub(int n1, int n2){
 
 int main (){
     int n1, n2, op;
-
+    
+    printf ("CR7 > Mbappe");
     printf ("Qual operação será utilizada\n Soma = 1\n Subtração = 2\n Insira a sua escolha: ");
     scanf ("%d", &op);
 
