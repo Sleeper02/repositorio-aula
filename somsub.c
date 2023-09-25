@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<locale.h>
 
+
+//abre.ai/minicurso-git-secompp
 int soma(int n1, int n2){
     int soma;
 
@@ -17,9 +19,10 @@ int sub(int n1, int n2){
 
 int div(int n1, int n2){
     int div;
-
+    if(n2!=0){
     div = n1/n2;
     return (div);
+    }
 }
 
 int mult(int n1, int n2){
